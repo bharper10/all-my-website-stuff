@@ -1,0 +1,25 @@
+table,th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+    /* center the table
+    margin: auto; */
+    margin:0 auto;
+}
+table{
+    background-color:rgb(253, 253, 0);
+    /* move to center of page */
+margin-top: 30%;
+
+    
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+body{
+    background-image:
+    url("https://3.files.edl.io/61fc/21/09/08/130217-274d1e70-ed75-4ad7-a3cb-15a027c42222.jpg")
+}
+

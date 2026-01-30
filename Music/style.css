@@ -1,0 +1,26 @@
+table,th,td {
+    border:2px solid black;
+    border-collapse: collapse;
+    margin:0 auto;
+}
+table{
+    background-color:rgb(255, 255, 255);
+
+margin-top: 5%;
+
+    
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+body{
+    background-image:
+    url(https://t2.genius.com/unsafe/300x300/https://images.genius.com/c55a78e6caa18d4df6aeadf14d3af85c.300x300x1.png);
+    background-repeat:no repeat;
+    background-size:cover;
+    background-position:center;
+
+}

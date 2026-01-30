@@ -1,0 +1,80 @@
+.card {
+    background-color: #e9ecef;
+    color: #495057;
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    border: 2px solid #dee2e6;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Part 2: Unique Styling (IDs) */
+
+/* Card #2 unique colors */
+#special-color {
+    background-color: #ff9f1c;
+    color: #ffffff;
+    border-color: #f1faee;
+}
+
+/* Card #3 unique size and font */
+#tall-card {
+    height: 440px; /* Twice the height of .card */
+}
+
+#tall-card h2 {
+    font-size: 3rem; /* Increased title size */
+}
+
+/* Optional Extensions */
+#page-header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #2b2d42;
+}
+
+.container {
+    text-align: center; /* Centers the cards on the page */
+    /* height:700px; */
+}
+.card-img {
+    width: 100%;
+    max-height: 120px; /* Limits height to fit the card */
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Adjusting the special-color card to fit the new image */
+#special-color {
+    background-color: #ff9f1c;
+    color: #ffffff;
+    border-color: #f1faee;
+    height: auto; /* Allows the card to grow with the image */
+    min-height: 270px;
+}
+/* Card #1 unique colors (Sweet/Playful) */
+#donut-card {
+    background-color: #ff85a1; /* Soft Pink */
+    color: #ffffff;            /* White text for contrast */
+    border-color: #f8ad9d;     /* Lighter border */
+}
+
+/* Card #3 unique colors (Fresh/Elegant) */
+#tall-card {
+    background-color: #2d6a4f; /* Dark Seaweed Green */
+    color: #f1faee;            /* Off-white text */
+    border-color: #40916c;     /* Subtle green border */
+    height: 440px;             /* Keeping your height from before */
+}
+
+/* Optional: Make the links easier to read on dark backgrounds */
+#donut-card a, #tall-card a {
+    color: #ffea00; /* Bright yellow for visibility */
+    font-weight: bold;
+}

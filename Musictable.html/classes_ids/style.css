@@ -1,0 +1,23 @@
+
+.city {
+    /* represents a class selector in CSS */
+    color:blue;
+    font-family:Arial, sans-serif;
+}
+/* # represents ID selector in CSS */
+#London {
+font-size: 20px;
+font-weight:bold;
+background-color:rgb(231, 218, 200);
+}
+#Paris {
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgb(231, 218, 200);;
+}
+#Tokyo {
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgb(231, 218, 200);
+}
+body {background-color: rgb(88, 77, 77);}
