@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+     background-image: url("https://www.sharpfootballanalysis.com/wp-content/uploads/2019/09/Chicago-Bears-huddle.jpg");
+       background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e2e285; /* Palette Color 1 */
+    color: #C83803;
+}
+
+/* Navigation Bar with Flexbox */
+.main-nav {
+    background-color: #0B162A; /* Palette Color 2 */
+    padding: 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0 20px;
+}
+
+.main-nav a {
+    color: #C83803;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section with Background Image */
+.hero-section {
+    background-image: url('https://via.placeholder.com');
+    background-size: cover;
+    color: #C83803;
+    color: ;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Flexbox Layout for Main Content */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.flex-item {
+    flex: 1;
+    min-width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px; /* Optional rounded corners */
+    background-color: white;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Form Styling */
+.form-section {
+    background-color: #ecf0f1; /* Palette Color 3 */
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+i
